@@ -126,7 +126,7 @@ if __name__ == '__main__':
                         if len(filename_parts) == 2 and (filename_parts[1].lower() == "mov" or filename_parts[1].lower() == "jpg"):
                             d['ident'] = "%s_preview"%publish_ident
                             d['can_upload'] = True
-                            d['path'] = "%s/%s/%s/preview/%s_%s_%03d.%s"%(ROOT_SHARE, project, task, project, task, version, parts[1].lower())
+                            d['path'] = "%s/%s/%s/preview/%s_%s_%03d.%s"%(ROOT_SHARE, project, task, project, task, version, filename_parts[1].lower())
                         else:
                             d['warning'] = "Previews can only be of .mov or .jpg file type/extension!"
                             d['rejected'] = True
