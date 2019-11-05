@@ -109,6 +109,7 @@ if __name__ == '__main__':
                                     if n_prev != -1 and n != n_prev + 1:
                                         warning_message = "Image '%d' is missing!"%(n_prev + 1)
                                         break
+                                    n_prev = n
                         else:
                             warning_message = "Directory is empty"
                         if warning_message is None:
