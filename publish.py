@@ -68,6 +68,7 @@ if __name__ == '__main__':
                             'comment':entry['comment'],
                             'time_spent_s':entry['time_report'],
                             'status':entry['status'],
+                            'metadata':entry.get('metadata')
                         }, f_md)
                         generic_print("Saved publish %s metadata to: %s"%(publish_ident, f_md.name))
 

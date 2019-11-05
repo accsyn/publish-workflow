@@ -52,6 +52,7 @@ if __name__ == '__main__':
         "guidelines":"<html><body color='white'>Please follow our naming convention for publishing back to us:<br><ul><li>Publish directory: &lt;proj&ht;_&lt;task&ht;_&lt;vNNN&gt;</li><li>Publish preview: &lt;proj&gt;_&lt;task&gt;_&lt;vNNN&gt;_preview.mov|jpg</li><li>Publish assets: &lt;proj&gt;_&lt;task&gt;_&lt;vNNN&gt;_assets</li></ul><br><br>Select entries below and enter comment, time report and status:</body></html>",
         "comment":True,
         "time_report":True,
+        "metadata":False,
         "statuses":[
             {"label": "For approval", "value":"for_approval", "default":True},
             {"label": "Work in progress", "value":"work_in_progress"},
